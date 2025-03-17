@@ -15,14 +15,13 @@
   - `pd.read_csv()`, `pd.read_excel()`, `pd.read_json()`, `pd.read_sql()`, `pd.read_parquet()`
 - ✅ **004. Escrita de arquivos**:
   - `df.to_csv()`, `df.to_excel()`, `df.to_json()`, `df.to_sql()`, `df.to_parquet()`
-- ✅ **005. Trabalhando com grandes arquivos**: Uso de `chunksize` em `pd.read_csv()`
 
 ## 4. Manipulação de Dados
-- ✅ **Seleção de colunas e linhas**: `df['coluna']`, `df[['col1', 'col2']]`, `df.loc[]`, `df.iloc[]`, `df.at[]`, `df.iat[]`
-- ✅ **Filtragem de dados**: `df[df['coluna'] > valor]`, `df.query()`
-- ✅ **Adição, remoção e modificação de colunas**: `df['nova_coluna'] = valores`, `df.drop(columns=['coluna'])`, `df.assign()`
-- ✅ **Ordenação de dados**: `df.sort_values(by='coluna')`, `df.sort_index()`
-- ✅ **Reset e configuração de índice**: `df.reset_index()`, `df.set_index('coluna')`
+- ✅ **005. Seleção de colunas e linhas**: `df['coluna']`, `df[['col1', 'col2']]`, `df.loc[]`, `df.iloc[]`, `df.at[]`, `df.iat[]`
+- ✅ **006. Filtragem de dados**: `df[df['coluna'] > valor]`, `df.query()`
+- ✅ **007. Adição, remoção e modificação de colunas**: `df['nova_coluna'] = valores`, `df.drop(columns=['coluna'])`, `df.assign()`
+- ✅ **008. Ordenação de dados**: `df.sort_values(by='coluna')`, `df.sort_index()`
+- ✅ **009. Reset e configuração de índice**: `df.reset_index()`, `df.set_index('coluna')`
 
 ## 5. Operações e Transformações
 - ✅ **Aplicação de funções**: `df.apply()`, `df.map()`, `df.applymap()`
